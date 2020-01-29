@@ -45,7 +45,7 @@ class App extends Component {
             </div>
             <div className="five wide column">
               <VideoList
-                onVideoSelect={this.onVideoSelect}
+                onVideoSelect1={this.onVideoSelect}
                 videos={this.state.videos}
               />
             </div>
